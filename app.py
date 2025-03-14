@@ -1,6 +1,6 @@
 import telebot
 from config import keys, TOKEN
-from utils import ConvertionException, GetPrice
+from extensions import ConvertionException, GetPrice
 
 
 bot = telebot.TeleBot(TOKEN)
